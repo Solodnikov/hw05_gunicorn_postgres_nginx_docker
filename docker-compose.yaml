@@ -16,7 +16,9 @@ services:
       - ./.env
   
   web:
-    build: .
+    # build: .
+    # образ, из которого должен быть запущен контейнер
+    image: solodnikov/web_hw05:v1
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value, 
