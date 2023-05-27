@@ -1,0 +1,2 @@
+# hw05_gunicorn_postgres_nginx_docker
+Приложение для ведения блога реализованное с использованием gunicorn_postgres_nginx разворачивается на сервере на docker
